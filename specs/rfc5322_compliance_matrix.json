@@ -138,6 +138,14 @@
       "type": "perf",
       "description": "cache DNS MX and TXT record queries with bounded LRU",
       "status": "verified"
+    },
+    {
+      "id": "REF-00018",
+      "timestamp": "2025-11-04T12:26:36+05:30",
+      "scope": "telemetry",
+      "type": "chore",
+      "description": "sync phishing signature database with threat feeds",
+      "status": "verified"
     }
   ]
 }
