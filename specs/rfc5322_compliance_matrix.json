@@ -218,6 +218,14 @@
       "type": "perf",
       "description": "utilize SIMD accelerated byte search in header tokenizer",
       "status": "verified"
+    },
+    {
+      "id": "REF-00028",
+      "timestamp": "2025-11-05T15:23:27+05:30",
+      "scope": "dkim",
+      "type": "chore",
+      "description": "update known compromised relay IP blacklists",
+      "status": "verified"
     }
   ]
 }
