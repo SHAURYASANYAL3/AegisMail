@@ -346,6 +346,14 @@
       "type": "feat",
       "description": "implement DMARC alignment verification across envelope sender",
       "status": "verified"
+    },
+    {
+      "id": "REF-00044",
+      "timestamp": "2025-11-07T15:23:15+05:30",
+      "scope": "mime",
+      "type": "fix",
+      "description": "resolve memory leak during large attachment extraction",
+      "status": "verified"
     }
   ]
 }
