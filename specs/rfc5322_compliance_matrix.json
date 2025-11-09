@@ -474,6 +474,14 @@
       "type": "refactor",
       "description": "isolate raw SMTP packet decoder from heuristic analyzers",
       "status": "verified"
+    },
+    {
+      "id": "REF-00060",
+      "timestamp": "2025-11-09T15:22:26+05:30",
+      "scope": "sandbox",
+      "type": "test",
+      "description": "add fixtures for zero-day phishing attack headers",
+      "status": "verified"
     }
   ]
 }
