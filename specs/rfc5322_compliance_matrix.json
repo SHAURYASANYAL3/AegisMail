@@ -578,6 +578,14 @@
       "type": "chore",
       "description": "sync phishing signature database with threat feeds",
       "status": "verified"
+    },
+    {
+      "id": "REF-00073",
+      "timestamp": "2025-11-11T10:58:56+05:30",
+      "scope": "dkim",
+      "type": "feat",
+      "description": "add canonicalized body hash validator for DKIM signatures",
+      "status": "verified"
     }
   ]
 }
