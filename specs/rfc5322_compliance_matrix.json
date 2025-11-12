@@ -674,6 +674,14 @@
       "type": "docs",
       "description": "add forensic incident response investigation workflow",
       "status": "verified"
+    },
+    {
+      "id": "REF-00085",
+      "timestamp": "2025-11-12T16:51:31+05:30",
+      "scope": "header-parser",
+      "type": "test",
+      "description": "verify ARC (Authenticated Received Chain) validation logic",
+      "status": "verified"
     }
   ]
 }
