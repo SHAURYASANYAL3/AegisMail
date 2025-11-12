@@ -682,6 +682,14 @@
       "type": "test",
       "description": "verify ARC (Authenticated Received Chain) validation logic",
       "status": "verified"
+    },
+    {
+      "id": "REF-00086",
+      "timestamp": "2025-11-12T18:20:44+05:30",
+      "scope": "homoglyph",
+      "type": "refactor",
+      "description": "modernize cryptographic signature caching layer",
+      "status": "verified"
     }
   ]
 }
