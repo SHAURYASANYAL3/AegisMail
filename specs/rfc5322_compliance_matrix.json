@@ -898,6 +898,14 @@
       "type": "docs",
       "description": "document RFC 5322 and RFC 6376 verification conformance test matrix",
       "status": "verified"
+    },
+    {
+      "id": "REF-00113",
+      "timestamp": "2025-11-16T21:17:21+05:30",
+      "scope": "homoglyph",
+      "type": "refactor",
+      "description": "isolate raw SMTP packet decoder from heuristic analyzers",
+      "status": "verified"
     }
   ]
 }
