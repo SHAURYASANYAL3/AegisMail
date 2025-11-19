@@ -546,3 +546,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Update known compromised relay ip blacklists.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-00137] 2025-11-19 21:16:56 - feat(spf)
+- **Summary**: Add suspicious link redirect unshortener with sandboxed head checks.
+- **Verification**: State integrity confirmed, checksum passed.
+
