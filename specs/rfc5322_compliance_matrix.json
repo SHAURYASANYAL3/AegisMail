@@ -1122,6 +1122,14 @@
       "type": "refactor",
       "description": "modernize cryptographic signature caching layer",
       "status": "verified"
+    },
+    {
+      "id": "REF-00141",
+      "timestamp": "2025-11-20T15:23:06+05:30",
+      "scope": "sandbox",
+      "type": "feat",
+      "description": "export structured forensic timeline in standard STIX 2.1 format",
+      "status": "verified"
     }
   ]
 }
