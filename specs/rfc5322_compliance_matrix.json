@@ -1154,6 +1154,14 @@
       "type": "chore",
       "description": "sync phishing signature database with threat feeds",
       "status": "verified"
+    },
+    {
+      "id": "REF-00145",
+      "timestamp": "2025-11-20T21:15:52+05:30",
+      "scope": "dkim",
+      "type": "feat",
+      "description": "add canonicalized body hash validator for DKIM signatures",
+      "status": "verified"
     }
   ]
 }
