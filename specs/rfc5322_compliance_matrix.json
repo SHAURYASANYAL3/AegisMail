@@ -1162,6 +1162,14 @@
       "type": "feat",
       "description": "add canonicalized body hash validator for DKIM signatures",
       "status": "verified"
+    },
+    {
+      "id": "REF-00146",
+      "timestamp": "2025-11-21T10:58:57+05:30",
+      "scope": "spf",
+      "type": "fix",
+      "description": "parse nested multipart/alternative MIME boundaries correctly",
+      "status": "verified"
     }
   ]
 }
