@@ -1242,6 +1242,14 @@
       "type": "feat",
       "description": "add suspicious link redirect unshortener with sandboxed head checks",
       "status": "verified"
+    },
+    {
+      "id": "REF-00156",
+      "timestamp": "2025-11-22T13:55:10+05:30",
+      "scope": "dmarc",
+      "type": "docs",
+      "description": "add forensic incident response investigation workflow",
+      "status": "verified"
     }
   ]
 }
