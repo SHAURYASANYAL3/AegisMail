@@ -1234,6 +1234,14 @@
       "type": "chore",
       "description": "update known compromised relay IP blacklists",
       "status": "verified"
+    },
+    {
+      "id": "REF-00155",
+      "timestamp": "2025-11-22T12:26:17+05:30",
+      "scope": "spf",
+      "type": "feat",
+      "description": "add suspicious link redirect unshortener with sandboxed head checks",
+      "status": "verified"
     }
   ]
 }
