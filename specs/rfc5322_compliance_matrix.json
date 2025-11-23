@@ -1346,6 +1346,14 @@
       "type": "test",
       "description": "add fixtures for zero-day phishing attack headers",
       "status": "verified"
+    },
+    {
+      "id": "REF-00169",
+      "timestamp": "2025-11-23T21:17:12+05:30",
+      "scope": "forensics",
+      "type": "feat",
+      "description": "implement DMARC alignment verification across envelope sender",
+      "status": "verified"
     }
   ]
 }
