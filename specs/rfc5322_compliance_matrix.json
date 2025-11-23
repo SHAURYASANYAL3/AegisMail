@@ -1314,6 +1314,14 @@
       "type": "fix",
       "description": "parse nested multipart/alternative MIME boundaries correctly",
       "status": "verified"
+    },
+    {
+      "id": "REF-00165",
+      "timestamp": "2025-11-23T15:22:37+05:30",
+      "scope": "dmarc",
+      "type": "perf",
+      "description": "speed up unicode homoglyph domain collision detector",
+      "status": "verified"
     }
   ]
 }
