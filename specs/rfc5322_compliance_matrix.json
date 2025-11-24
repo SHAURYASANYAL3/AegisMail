@@ -1362,6 +1362,14 @@
       "type": "fix",
       "description": "resolve memory leak during large attachment extraction",
       "status": "verified"
+    },
+    {
+      "id": "REF-00171",
+      "timestamp": "2025-11-24T12:25:53+05:30",
+      "scope": "telemetry",
+      "type": "perf",
+      "description": "utilize SIMD accelerated byte search in header tokenizer",
+      "status": "verified"
     }
   ]
 }
