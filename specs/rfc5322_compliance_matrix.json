@@ -1426,6 +1426,14 @@
       "type": "fix",
       "description": "prevent regex catastrophe on malicious Received-SPF header",
       "status": "verified"
+    },
+    {
+      "id": "REF-00179",
+      "timestamp": "2025-11-25T12:26:30+05:30",
+      "scope": "mime",
+      "type": "perf",
+      "description": "cache DNS MX and TXT record queries with bounded LRU",
+      "status": "verified"
     }
   ]
 }
