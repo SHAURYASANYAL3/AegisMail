@@ -1466,6 +1466,14 @@
       "type": "perf",
       "description": "speed up unicode homoglyph domain collision detector",
       "status": "verified"
+    },
+    {
+      "id": "REF-00184",
+      "timestamp": "2025-11-25T19:47:44+05:30",
+      "scope": "header-parser",
+      "type": "docs",
+      "description": "document RFC 5322 and RFC 6376 verification conformance test matrix",
+      "status": "verified"
     }
   ]
 }
