@@ -1562,6 +1562,14 @@
       "type": "feat",
       "description": "export structured forensic timeline in standard STIX 2.1 format",
       "status": "verified"
+    },
+    {
+      "id": "REF-00196",
+      "timestamp": "2025-11-27T12:25:55+05:30",
+      "scope": "forensics",
+      "type": "fix",
+      "description": "prevent regex catastrophe on malicious Received-SPF header",
+      "status": "verified"
     }
   ]
 }
