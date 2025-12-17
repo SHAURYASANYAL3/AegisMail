@@ -620,3 +620,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Verify arc (authenticated received chain) validation logic.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-00356] 2025-12-17 10:59:02 - refactor(homoglyph)
+- **Summary**: Modernize cryptographic signature caching layer.
+- **Verification**: State integrity confirmed, checksum passed.
+
