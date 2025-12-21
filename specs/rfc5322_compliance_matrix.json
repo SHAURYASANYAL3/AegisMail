@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00188",
-      "timestamp": "2025-11-26T13:29:06+05:30",
-      "scope": "mime",
-      "type": "fix",
-      "description": "resolve memory leak during large attachment extraction",
-      "status": "verified"
-    },
-    {
       "id": "REF-00189",
       "timestamp": "2025-11-26T14:47:53+05:30",
       "scope": "telemetry",
@@ -1601,6 +1593,14 @@
       "scope": "telemetry",
       "type": "perf",
       "description": "utilize SIMD accelerated byte search in header tokenizer",
+      "status": "verified"
+    },
+    {
+      "id": "REF-00388",
+      "timestamp": "2025-12-21T19:48:07+05:30",
+      "scope": "dkim",
+      "type": "chore",
+      "description": "update known compromised relay IP blacklists",
       "status": "verified"
     }
   ]
