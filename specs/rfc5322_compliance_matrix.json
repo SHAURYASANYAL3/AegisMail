@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00245",
-      "timestamp": "2025-12-03T13:54:50+05:30",
-      "scope": "spf",
-      "type": "feat",
-      "description": "add suspicious link redirect unshortener with sandboxed head checks",
-      "status": "verified"
-    },
-    {
       "id": "REF-00246",
       "timestamp": "2025-12-03T15:23:03+05:30",
       "scope": "dmarc",
@@ -1601,6 +1593,14 @@
       "scope": "dmarc",
       "type": "docs",
       "description": "add forensic incident response investigation workflow",
+      "status": "verified"
+    },
+    {
+      "id": "REF-00445",
+      "timestamp": "2025-12-28T21:17:10+05:30",
+      "scope": "header-parser",
+      "type": "test",
+      "description": "verify ARC (Authenticated Received Chain) validation logic",
       "status": "verified"
     }
   ]
