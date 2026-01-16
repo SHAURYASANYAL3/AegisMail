@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00393",
-      "timestamp": "2025-12-22T15:23:37+05:30",
-      "scope": "sandbox",
-      "type": "feat",
-      "description": "export structured forensic timeline in standard STIX 2.1 format",
-      "status": "verified"
-    },
-    {
       "id": "REF-00394",
       "timestamp": "2025-12-22T16:51:05+05:30",
       "scope": "forensics",
@@ -1601,6 +1593,14 @@
       "scope": "forensics",
       "type": "fix",
       "description": "prevent regex catastrophe on malicious Received-SPF header",
+      "status": "verified"
+    },
+    {
+      "id": "REF-00593",
+      "timestamp": "2026-01-16T10:58:34+05:30",
+      "scope": "mime",
+      "type": "perf",
+      "description": "cache DNS MX and TXT record queries with bounded LRU",
       "status": "verified"
     }
   ]
