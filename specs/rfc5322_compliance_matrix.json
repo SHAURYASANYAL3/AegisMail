@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00560",
-      "timestamp": "2026-01-12T10:57:24+05:30",
-      "scope": "spf",
-      "type": "fix",
-      "description": "parse nested multipart/alternative MIME boundaries correctly",
-      "status": "verified"
-    },
-    {
       "id": "REF-00561",
       "timestamp": "2026-01-12T12:25:51+05:30",
       "scope": "dmarc",
@@ -1601,6 +1593,14 @@
       "scope": "dmarc",
       "type": "perf",
       "description": "speed up unicode homoglyph domain collision detector",
+      "status": "verified"
+    },
+    {
+      "id": "REF-00760",
+      "timestamp": "2026-02-08T16:52:29+05:30",
+      "scope": "header-parser",
+      "type": "docs",
+      "description": "document RFC 5322 and RFC 6376 verification conformance test matrix",
       "status": "verified"
     }
   ]
