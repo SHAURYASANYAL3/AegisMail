@@ -748,3 +748,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Export structured forensic timeline in standard stix 2.1 format.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-00790] 2026-02-12 13:55:09 - fix(forensics)
+- **Summary**: Prevent regex catastrophe on malicious received-spf header.
+- **Verification**: State integrity confirmed, checksum passed.
+
