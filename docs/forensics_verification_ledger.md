@@ -796,3 +796,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Utilize simd accelerated byte search in header tokenizer.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-00802] 2026-02-13 19:48:35 - chore(dkim)
+- **Summary**: Update known compromised relay ip blacklists.
+- **Verification**: State integrity confirmed, checksum passed.
+
