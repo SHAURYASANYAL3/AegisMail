@@ -592,3 +592,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Implement dmarc alignment verification across envelope sender.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-00818] 2026-02-15 19:49:03 - fix(mime)
+- **Summary**: Resolve memory leak during large attachment extraction.
+- **Verification**: State integrity confirmed, checksum passed.
+
