@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00652",
-      "timestamp": "2026-01-26T10:58:30+05:30",
-      "scope": "header-parser",
-      "type": "docs",
-      "description": "document RFC 5322 and RFC 6376 verification conformance test matrix",
-      "status": "verified"
-    },
-    {
       "id": "REF-00653",
       "timestamp": "2026-01-26T12:25:50+05:30",
       "scope": "homoglyph",
@@ -1601,6 +1593,14 @@
       "scope": "homoglyph",
       "type": "refactor",
       "description": "isolate raw SMTP packet decoder from heuristic analyzers",
+      "status": "verified"
+    },
+    {
+      "id": "REF-00852",
+      "timestamp": "2026-02-19T19:49:01+05:30",
+      "scope": "sandbox",
+      "type": "test",
+      "description": "add fixtures for zero-day phishing attack headers",
       "status": "verified"
     }
   ]
