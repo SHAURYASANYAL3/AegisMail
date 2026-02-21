@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00665",
-      "timestamp": "2026-01-27T18:20:48+05:30",
-      "scope": "mime",
-      "type": "perf",
-      "description": "cache DNS MX and TXT record queries with bounded LRU",
-      "status": "verified"
-    },
-    {
       "id": "REF-00666",
       "timestamp": "2026-01-27T19:48:25+05:30",
       "scope": "telemetry",
@@ -1601,6 +1593,14 @@
       "scope": "telemetry",
       "type": "chore",
       "description": "sync phishing signature database with threat feeds",
+      "status": "verified"
+    },
+    {
+      "id": "REF-00865",
+      "timestamp": "2026-02-21T15:23:26+05:30",
+      "scope": "dkim",
+      "type": "feat",
+      "description": "add canonicalized body hash validator for DKIM signatures",
       "status": "verified"
     }
   ]
