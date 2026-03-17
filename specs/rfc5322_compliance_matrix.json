@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00837",
-      "timestamp": "2026-02-18T10:49:15+05:30",
-      "scope": "telemetry",
-      "type": "perf",
-      "description": "utilize SIMD accelerated byte search in header tokenizer",
-      "status": "verified"
-    },
-    {
       "id": "REF-00838",
       "timestamp": "2026-02-18T12:08:05+05:30",
       "scope": "dkim",
@@ -1601,6 +1593,14 @@
       "scope": "dkim",
       "type": "chore",
       "description": "update known compromised relay IP blacklists",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01037",
+      "timestamp": "2026-03-17T15:22:20+05:30",
+      "scope": "spf",
+      "type": "feat",
+      "description": "add suspicious link redirect unshortener with sandboxed head checks",
       "status": "verified"
     }
   ]
