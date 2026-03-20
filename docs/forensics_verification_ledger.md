@@ -720,3 +720,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Add fixtures for zero-day phishing attack headers.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01051] 2026-03-20 10:58:14 - feat(forensics)
+- **Summary**: Implement dmarc alignment verification across envelope sender.
+- **Verification**: State integrity confirmed, checksum passed.
+
