@@ -724,3 +724,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Parse nested multipart/alternative mime boundaries correctly.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01119] 2026-03-31 21:17:16 - perf(dmarc)
+- **Summary**: Speed up unicode homoglyph domain collision detector.
+- **Verification**: State integrity confirmed, checksum passed.
+
