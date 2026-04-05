@@ -588,3 +588,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Cache dns mx and txt record queries with bounded lru.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01152] 2026-04-05 21:16:45 - chore(telemetry)
+- **Summary**: Sync phishing signature database with threat feeds.
+- **Verification**: State integrity confirmed, checksum passed.
+
