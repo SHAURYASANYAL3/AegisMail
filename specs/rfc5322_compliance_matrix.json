@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-00970",
-      "timestamp": "2026-03-06T16:51:07+05:30",
-      "scope": "forensics",
-      "type": "fix",
-      "description": "prevent regex catastrophe on malicious Received-SPF header",
-      "status": "verified"
-    },
-    {
       "id": "REF-00971",
       "timestamp": "2026-03-06T18:19:57+05:30",
       "scope": "mime",
@@ -1601,6 +1593,14 @@
       "scope": "mime",
       "type": "perf",
       "description": "cache DNS MX and TXT record queries with bounded LRU",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01170",
+      "timestamp": "2026-04-09T10:57:38+05:30",
+      "scope": "telemetry",
+      "type": "chore",
+      "description": "sync phishing signature database with threat feeds",
       "status": "verified"
     }
   ]
