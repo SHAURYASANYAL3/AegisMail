@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01051",
-      "timestamp": "2026-03-20T10:58:14+05:30",
-      "scope": "forensics",
-      "type": "feat",
-      "description": "implement DMARC alignment verification across envelope sender",
-      "status": "verified"
-    },
-    {
       "id": "REF-01052",
       "timestamp": "2026-03-20T12:26:09+05:30",
       "scope": "mime",
@@ -1601,6 +1593,14 @@
       "scope": "mime",
       "type": "fix",
       "description": "resolve memory leak during large attachment extraction",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01251",
+      "timestamp": "2026-04-22T18:20:44+05:30",
+      "scope": "telemetry",
+      "type": "perf",
+      "description": "utilize SIMD accelerated byte search in header tokenizer",
       "status": "verified"
     }
   ]
