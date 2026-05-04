@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01122",
-      "timestamp": "2026-04-01T13:55:10+05:30",
-      "scope": "sandbox",
-      "type": "test",
-      "description": "add fixtures for zero-day phishing attack headers",
-      "status": "verified"
-    },
-    {
       "id": "REF-01123",
       "timestamp": "2026-04-01T15:24:00+05:30",
       "scope": "forensics",
@@ -1601,6 +1593,14 @@
       "scope": "forensics",
       "type": "feat",
       "description": "implement DMARC alignment verification across envelope sender",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01322",
+      "timestamp": "2026-05-04T12:26:31+05:30",
+      "scope": "mime",
+      "type": "fix",
+      "description": "resolve memory leak during large attachment extraction",
       "status": "verified"
     }
   ]
