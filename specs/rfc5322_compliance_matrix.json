@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01236",
-      "timestamp": "2026-04-19T21:15:41+05:30",
-      "scope": "dmarc",
-      "type": "docs",
-      "description": "add forensic incident response investigation workflow",
-      "status": "verified"
-    },
-    {
       "id": "REF-01237",
       "timestamp": "2026-04-20T10:58:54+05:30",
       "scope": "header-parser",
@@ -1601,6 +1593,14 @@
       "scope": "header-parser",
       "type": "test",
       "description": "verify ARC (Authenticated Received Chain) validation logic",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01436",
+      "timestamp": "2026-05-27T16:07:04+05:30",
+      "scope": "homoglyph",
+      "type": "refactor",
+      "description": "modernize cryptographic signature caching layer",
       "status": "verified"
     }
   ]
