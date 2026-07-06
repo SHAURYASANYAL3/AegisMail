@@ -712,3 +712,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Isolate raw smtp packet decoder from heuristic analyzers.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01518] 2026-07-06 10:59:03 - test(sandbox)
+- **Summary**: Add fixtures for zero-day phishing attack headers.
+- **Verification**: State integrity confirmed, checksum passed.
+
