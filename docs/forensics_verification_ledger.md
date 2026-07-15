@@ -580,3 +580,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Speed up unicode homoglyph domain collision detector.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01552] 2026-07-15 16:50:58 - docs(header-parser)
+- **Summary**: Document rfc 5322 and rfc 6376 verification conformance test matrix.
+- **Verification**: State integrity confirmed, checksum passed.
+
