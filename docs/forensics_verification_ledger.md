@@ -572,3 +572,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Modernize cryptographic signature caching layer.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01617] 2026-07-28 21:15:43 - feat(sandbox)
+- **Summary**: Export structured forensic timeline in standard stix 2.1 format.
+- **Verification**: State integrity confirmed, checksum passed.
+
