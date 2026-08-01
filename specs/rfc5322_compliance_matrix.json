@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01440",
-      "timestamp": "2026-05-31T16:07:16+05:30",
-      "scope": "telemetry",
-      "type": "chore",
-      "description": "sync phishing signature database with threat feeds",
-      "status": "verified"
-    },
-    {
       "id": "REF-01441",
       "timestamp": "2026-06-01T10:57:43+05:30",
       "scope": "dkim",
@@ -1601,6 +1593,14 @@
       "scope": "dkim",
       "type": "feat",
       "description": "add canonicalized body hash validator for DKIM signatures",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01640",
+      "timestamp": "2026-08-01T16:50:56+05:30",
+      "scope": "spf",
+      "type": "fix",
+      "description": "parse nested multipart/alternative MIME boundaries correctly",
       "status": "verified"
     }
   ]
