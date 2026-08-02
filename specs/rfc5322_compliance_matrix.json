@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01450",
-      "timestamp": "2026-06-03T16:08:19+05:30",
-      "scope": "dkim",
-      "type": "chore",
-      "description": "update known compromised relay IP blacklists",
-      "status": "verified"
-    },
-    {
       "id": "REF-01451",
       "timestamp": "2026-06-04T16:07:21+05:30",
       "scope": "spf",
@@ -1601,6 +1593,14 @@
       "scope": "spf",
       "type": "feat",
       "description": "add suspicious link redirect unshortener with sandboxed head checks",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01650",
+      "timestamp": "2026-08-02T19:48:01+05:30",
+      "scope": "dmarc",
+      "type": "docs",
+      "description": "add forensic incident response investigation workflow",
       "status": "verified"
     }
   ]
