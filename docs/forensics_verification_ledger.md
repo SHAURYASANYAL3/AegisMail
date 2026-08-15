@@ -652,3 +652,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Add suspicious link redirect unshortener with sandboxed head checks.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01704] 2026-08-15 16:52:08 - docs(dmarc)
+- **Summary**: Add forensic incident response investigation workflow.
+- **Verification**: State integrity confirmed, checksum passed.
+
