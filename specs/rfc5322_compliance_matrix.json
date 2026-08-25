@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01533",
-      "timestamp": "2026-07-11T15:23:28+05:30",
-      "scope": "dmarc",
-      "type": "perf",
-      "description": "speed up unicode homoglyph domain collision detector",
-      "status": "verified"
-    },
-    {
       "id": "REF-01534",
       "timestamp": "2026-07-11T16:51:02+05:30",
       "scope": "header-parser",
@@ -1601,6 +1593,14 @@
       "scope": "header-parser",
       "type": "docs",
       "description": "document RFC 5322 and RFC 6376 verification conformance test matrix",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01733",
+      "timestamp": "2026-08-25T12:27:26+05:30",
+      "scope": "homoglyph",
+      "type": "refactor",
+      "description": "isolate raw SMTP packet decoder from heuristic analyzers",
       "status": "verified"
     }
   ]
