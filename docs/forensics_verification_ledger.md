@@ -560,3 +560,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Add canonicalized body hash validator for dkim signatures.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01748] 2026-08-27 16:07:57 - fix(spf)
+- **Summary**: Parse nested multipart/alternative mime boundaries correctly.
+- **Verification**: State integrity confirmed, checksum passed.
+
