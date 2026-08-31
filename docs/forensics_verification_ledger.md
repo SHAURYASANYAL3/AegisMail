@@ -644,3 +644,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Document rfc 5322 and rfc 6376 verification conformance test matrix.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01769] 2026-08-31 15:23:49 - refactor(homoglyph)
+- **Summary**: Isolate raw smtp packet decoder from heuristic analyzers.
+- **Verification**: State integrity confirmed, checksum passed.
+
