@@ -676,3 +676,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Add forensic incident response investigation workflow.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01777] 2026-09-01 15:23:28 - test(header-parser)
+- **Summary**: Verify arc (authenticated received chain) validation logic.
+- **Verification**: State integrity confirmed, checksum passed.
+
