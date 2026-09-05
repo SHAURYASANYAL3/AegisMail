@@ -764,3 +764,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Prevent regex catastrophe on malicious received-spf header.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01799] 2026-09-05 21:16:43 - perf(mime)
+- **Summary**: Cache dns mx and txt record queries with bounded lru.
+- **Verification**: State integrity confirmed, checksum passed.
+
