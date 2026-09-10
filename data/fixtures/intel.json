@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-09-10T12:00:00Z",
+  "source": "AegisMail Local Threat Intelligence Curated Database",
+  "ip_intelligence": {
+    "198.51.100.44": {
+      "ip": "198.51.100.44",
+      "reputation": "MALICIOUS",
+      "threat_type": "PHISHING_HOST",
+      "asn": "AS64496",
+      "asn_org": "EvilNet Bulletproof Hosting",
+      "country": "Russia",
+      "country_code": "RU",
+      "city": "Moscow",
+      "latitude": 55.7558,
+      "longitude": 37.6173,
+      "confidence": {
+        "country_confidence": 0.96,
+        "city_confidence": 0.68,
+        "asn_confidence": 0.99
+      },
+      "first_seen": "2026-08-15T04:22:00Z",
+      "last_seen": "2026-09-09T22:15:00Z",
+      "associated_campaigns": ["CMP-2026-ALPHA"]
+    },
+    "203.0.113.89": {
+      "ip": "203.0.113.89",
+      "reputation": "MALICIOUS",
+      "threat_type": "C2_SERVER",
+      "asn": "AS64497",
+      "asn_org": "Starlight Offshore VPS",
+      "country": "Panama",
+      "country_code": "PA",
+      "city": "Panama City",
+      "latitude": 8.9824,
+      "longitude": -79.5199,
+      "confidence": {
+        "country_confidence": 0.94,
+        "city_confidence": 0.62,
+        "asn_confidence": 0.98
+      },
+      "first_seen": "2026-08-20T11:00:00Z",
+      "last_seen": "2026-09-10T08:30:00Z",
+      "associated_campaigns": ["CMP-2026-ALPHA", "CMP-2026-BETA"]
+    },
+    "192.0.2.15": {
+      "ip": "192.0.2.15",
+      "reputation": "SUSPICIOUS",
+      "threat_type": "OPEN_RELAY",
+      "asn": "AS64498",
+      "asn_org": "Global Cloud Transit",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "city": "Amsterdam",
+      "latitude": 52.3676,
+      "longitude": 4.9041,
+      "confidence": {
+        "country_confidence": 0.98,
+        "city_confidence": 0.85,
+        "asn_confidence": 0.99
+      },
+      "first_seen": "2026-09-01T09:00:00Z",
+      "last_seen": "2026-09-10T14:10:00Z",
+      "associated_campaigns": ["CMP-2026-BETA"]
+    },
+    "142.250.190.46": {
+      "ip": "142.250.190.46",
+      "reputation": "BENIGN",
+      "threat_type": "LEGITIMATE_RELAY",
+      "asn": "AS15169",
+      "asn_org": "Google LLC",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Mountain View",
+      "latitude": 37.422,
+      "longitude": -122.0841,
+      "confidence": {
+        "country_confidence": 0.99,
+        "city_confidence": 0.92,
+        "asn_confidence": 0.99
+      },
+      "first_seen": "2020-01-01T00:00:00Z",
+      "last_seen": "2026-09-10T15:00:00Z",
+      "associated_campaigns": []
+    }
+  },
+  "domain_intelligence": {
+    "evil-corp-phish.xyz": {
+      "domain": "evil-corp-phish.xyz",
+      "reputation": "MALICIOUS",
+      "category": "CREDENTIAL_HARVESTING",
+      "registrar": "NameCheap Inc",
+      "created_date": "2026-08-14T00:00:00Z",
+      "nameservers": ["ns1.bulletproof-dns.top", "ns2.bulletproof-dns.top"],
+      "resolved_ips": ["198.51.100.44"],
+      "confidence": 0.98,
+      "associated_campaigns": ["CMP-2026-ALPHA"]
+    },
+    "micros0ft-security-verify.top": {
+      "domain": "micros0ft-security-verify.top",
+      "reputation": "MALICIOUS",
+      "category": "TYPOSQUATTING_PHISH",
+      "registrar": "Dynadot LLC",
+      "created_date": "2026-09-02T14:00:00Z",
+      "nameservers": ["ns1.bulletproof-dns.top", "ns2.bulletproof-dns.top"],
+      "resolved_ips": ["198.51.100.44", "203.0.113.89"],
+      "confidence": 0.99,
+      "associated_campaigns": ["CMP-2026-ALPHA", "CMP-2026-BETA"]
+    },
+    "secure-portal-auth.top": {
+      "domain": "secure-portal-auth.top",
+      "reputation": "MALICIOUS",
+      "category": "OFFICE365_IMPERSONATION",
+      "registrar": "Njalla Privacy",
+      "created_date": "2026-09-05T08:12:00Z",
+      "nameservers": ["ns1.bulletproof-dns.top"],
+      "resolved_ips": ["203.0.113.89"],
+      "confidence": 0.97,
+      "associated_campaigns": ["CMP-2026-BETA"]
+    },
+    "acme-internal-portal.com": {
+      "domain": "acme-internal-portal.com",
+      "reputation": "BENIGN",
+      "category": "CORPORATE_DOMAIN",
+      "registrar": "MarkMonitor Inc",
+      "created_date": "2015-04-10T00:00:00Z",
+      "nameservers": ["ns1.p01.dynect.net", "ns2.p01.dynect.net"],
+      "resolved_ips": ["142.250.190.46"],
+      "confidence": 0.99,
+      "associated_campaigns": []
+    }
+  },
+  "hash_intelligence": {
+    "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08": {
+      "sha256": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+      "filename": "Remittance_Advice_INV9904.iso",
+      "reputation": "MALICIOUS",
+      "malware_family": "AgentTesla.Infostealer",
+      "mime_type": "application/x-iso9660-image",
+      "confidence": 0.99,
+      "associated_campaigns": ["CMP-2026-ALPHA"]
+    },
+    "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea": {
+      "sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
+      "filename": "Urgent_SWIFT_Transfer_Confirmation.pdf.exe",
+      "reputation": "MALICIOUS",
+      "malware_family": "FormBook.Dropper",
+      "mime_type": "application/x-dosexec",
+      "confidence": 0.99,
+      "associated_campaigns": ["CMP-2026-BETA"]
+    }
+  }
+}

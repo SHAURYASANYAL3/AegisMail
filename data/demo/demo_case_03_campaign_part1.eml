@@ -1,0 +1,31 @@
+From: "Global Logistics Dispatch" <dispatch-notice@evil-corp-phish.xyz>
+To: procurement.team@cyberdefense-corp.org
+Subject: Shipping Bill of Lading BL-88102 Notification
+Date: Tue, 08 Sep 2026 14:22:11 +0000
+Message-ID: <20260908142211.dispatch.7712@evil-corp-phish.xyz>
+Reply-To: dispatch-notice@evil-corp-phish.xyz
+Return-Path: <bounce@evil-corp-phish.xyz>
+Received: from relay01.evil-corp-phish.xyz (relay01.evil-corp-phish.xyz [198.51.100.44])
+    by mx.cyberdefense-corp.org (Postfix) with ESMTP id 3Vkl911Am
+    for <procurement.team@cyberdefense-corp.org>; Tue, 08 Sep 2026 14:22:15 +0000
+Authentication-Results: mx.cyberdefense-corp.org;
+    spf=fail smtp.mailfrom=evil-corp-phish.xyz;
+    dkim=none;
+    dmarc=fail action=none header.from=evil-corp-phish.xyz
+Content-Type: multipart/mixed; boundary="----=_Part_88102_994812"
+
+------=_Part_88102_994812
+Content-Type: text/plain; charset="UTF-8"
+
+Please review the attached shipping document for consignment clearance.
+Customs inspection requires documentation within 24 hours.
+
+Regards,
+Global Dispatch Desk
+------=_Part_88102_994812
+Content-Type: application/octet-stream; name="Remittance_Advice_INV9904.iso"
+Content-Disposition: attachment; filename="Remittance_Advice_INV9904.iso"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAAAAAAAAAAAAAAAAAAAAAAA=
+------=_Part_88102_994812--

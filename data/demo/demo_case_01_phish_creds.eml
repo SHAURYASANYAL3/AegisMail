@@ -1,0 +1,32 @@
+From: "Microsoft 365 Security Team" <account-alert@micros0ft-security-verify.top>
+To: target.analyst@cyberdefense-corp.org
+Subject: CRITICAL: Immediate Password Expiration Notice for target.analyst
+Date: Wed, 09 Sep 2026 21:10:04 +0000
+Message-ID: <20260909211004.alert.8841@micros0ft-security-verify.top>
+Reply-To: account-alert@micros0ft-security-verify.top
+Return-Path: <bounce@micros0ft-security-verify.top>
+Received: from mail.micros0ft-security-verify.top (unknown [198.51.100.44])
+    by mx.cyberdefense-corp.org (Postfix) with ESMTP id 4Xj8b22Lmzz1
+    for <target.analyst@cyberdefense-corp.org>; Wed, 09 Sep 2026 21:10:06 +0000
+Authentication-Results: mx.cyberdefense-corp.org;
+    spf=fail (sender IP is 198.51.100.44) smtp.mailfrom=micros0ft-security-verify.top;
+    dkim=none;
+    dmarc=fail action=none header.from=micros0ft-security-verify.top
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head><title>Password Expiration</title></head>
+<body>
+<div style="font-family: Arial, sans-serif; max-width: 600px;">
+    <h2>Security Alert: Password Expiring Within 2 Hours</h2>
+    <p>Dear Employee,</p>
+    <p>Your corporate Microsoft 365 session will be suspended today due to routine policy compliance. To keep your current credentials and avoid account lockout, you must authenticate immediately.</p>
+    <p><a href="http://micros0ft-security-verify.top/auth/login?session=9941a8" style="background: #0078d4; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px;">Keep My Same Password</a></p>
+    <p>Failure to complete this within 120 minutes will require administrator intervention.</p>
+    <hr>
+    <small>Microsoft Online Services Security Operations</small>
+</div>
+</body>
+</html>
