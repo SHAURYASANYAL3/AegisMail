@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01724",
-      "timestamp": "2026-08-22T15:23:31+05:30",
-      "scope": "homoglyph",
-      "type": "refactor",
-      "description": "modernize cryptographic signature caching layer",
-      "status": "verified"
-    },
-    {
       "id": "REF-01725",
       "timestamp": "2026-08-22T16:51:35+05:30",
       "scope": "sandbox",
@@ -1601,6 +1593,14 @@
       "scope": "sandbox",
       "type": "feat",
       "description": "export structured forensic timeline in standard STIX 2.1 format",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01924",
+      "timestamp": "2026-10-04T13:55:43+05:30",
+      "scope": "forensics",
+      "type": "fix",
+      "description": "prevent regex catastrophe on malicious Received-SPF header",
       "status": "verified"
     }
   ]
