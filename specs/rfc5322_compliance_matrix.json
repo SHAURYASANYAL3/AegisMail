@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01723",
-      "timestamp": "2026-08-22T13:55:52+05:30",
-      "scope": "header-parser",
-      "type": "test",
-      "description": "verify ARC (Authenticated Received Chain) validation logic",
-      "status": "verified"
-    },
-    {
       "id": "REF-01724",
       "timestamp": "2026-08-22T15:23:31+05:30",
       "scope": "homoglyph",
@@ -1601,6 +1593,14 @@
       "scope": "homoglyph",
       "type": "refactor",
       "description": "modernize cryptographic signature caching layer",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01923",
+      "timestamp": "2026-10-04T12:26:24+05:30",
+      "scope": "sandbox",
+      "type": "feat",
+      "description": "export structured forensic timeline in standard STIX 2.1 format",
       "status": "verified"
     }
   ]
