@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01751",
-      "timestamp": "2026-08-28T13:55:23+05:30",
-      "scope": "homoglyph",
-      "type": "refactor",
-      "description": "isolate raw SMTP packet decoder from heuristic analyzers",
-      "status": "verified"
-    },
-    {
       "id": "REF-01752",
       "timestamp": "2026-08-28T15:23:55+05:30",
       "scope": "sandbox",
@@ -1601,6 +1593,14 @@
       "scope": "sandbox",
       "type": "test",
       "description": "add fixtures for zero-day phishing attack headers",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01951",
+      "timestamp": "2026-10-17T12:26:21+05:30",
+      "scope": "forensics",
+      "type": "feat",
+      "description": "implement DMARC alignment verification across envelope sender",
       "status": "verified"
     }
   ]
