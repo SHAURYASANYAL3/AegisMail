@@ -616,3 +616,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Sync phishing signature database with threat feeds.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01963] 2026-10-18 17:27:07 - feat(dkim)
+- **Summary**: Add canonicalized body hash validator for dkim signatures.
+- **Verification**: State integrity confirmed, checksum passed.
+
