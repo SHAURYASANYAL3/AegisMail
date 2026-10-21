@@ -648,3 +648,7 @@ Automated architectural decision record, telemetry benchmarks, and operational a
 - **Summary**: Resolve memory leak during large attachment extraction.
 - **Verification**: State integrity confirmed, checksum passed.
 
+### [REF-01971] 2026-10-21 13:28:28 - perf(telemetry)
+- **Summary**: Utilize simd accelerated byte search in header tokenizer.
+- **Verification**: State integrity confirmed, checksum passed.
+
