@@ -4,14 +4,6 @@
   "last_audit_sync": "2026-11-03T18:00:00+05:30",
   "entries": [
     {
-      "id": "REF-01783",
-      "timestamp": "2026-09-02T12:25:56+05:30",
-      "scope": "dkim",
-      "type": "feat",
-      "description": "add canonicalized body hash validator for DKIM signatures",
-      "status": "verified"
-    },
-    {
       "id": "REF-01784",
       "timestamp": "2026-09-02T13:55:31+05:30",
       "scope": "spf",
@@ -1601,6 +1593,14 @@
       "scope": "spf",
       "type": "fix",
       "description": "parse nested multipart/alternative MIME boundaries correctly",
+      "status": "verified"
+    },
+    {
+      "id": "REF-01983",
+      "timestamp": "2026-10-25T13:54:46+05:30",
+      "scope": "dmarc",
+      "type": "perf",
+      "description": "speed up unicode homoglyph domain collision detector",
       "status": "verified"
     }
   ]
